@@ -10,11 +10,12 @@ function App() {
     setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
   }
   return (
-    
+
     <div id="main">
       {/* // Do not alter the main div */}
-      <button id='click' onClick={handleClick}>click</button>
       <p id ="para">{pa}</p>
+      <button id='click' onClick={handleClick}>click</button>
+      
       
 
     </div>
